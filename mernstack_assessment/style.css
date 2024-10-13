@@ -1,0 +1,262 @@
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    overflow-x: hidden;
+    color: #ffffff;
+    background-color: #fcfcfc;
+}
+
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.tm-color-primary {
+    color: #069;
+}
+
+.tm-color-gray {
+    color: #333;
+}
+
+.tm-bg-black-transparent {
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.tm-bg-white-transparent {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.tm-intro {
+    max-width: 500px;
+    width: 100%;
+    padding: 55px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.tm-section-title {
+    font-size: 1.6rem;
+}
+
+.parallax-window {
+    min-height: 662px;
+    background: transparent;
+    background-image: url(../mernstack_assessment/img/dream-pulse-header.jpg);
+    background-repeat: no-repeat;
+}
+
+.tm-section {
+    display: flex;
+    align-items: center;
+    height: auto;
+    max-width: 1275px;
+    padding: 66px 60px;
+}
+
+#intro {
+    min-height: 100vh;
+    max-width: none;
+}
+
+.tm-brand {
+    font-size: 2.6rem;
+}
+
+.tm-brand-box {
+    box-sizing: content-box;
+    width: 100%;
+    max-width: 230px;
+    min-height: 160px;
+    color: white;
+    text-align: center;
+    margin: 70px auto 90px;
+}
+
+.tm-double-border-1,
+.tm-double-border-2 {
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.tm-double-border-2 {
+    top: 10px;
+    left: 10px;
+}
+
+.tm-border-gray {
+    border-color: #000000;
+}
+
+.tm-box-pad {
+    padding: 50px 20px;
+}
+
+.tm-brand {
+    padding: 30px;
+}
+
+.tm-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 220px;
+    max-width: 250px;
+}
+
+.tm-sidebar {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.tm-sidebar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.tm-sidebar-sticky {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tm-main-nav>li>a {
+    color: white;
+}
+
+.tm-main-nav {
+    margin-bottom: 160px;
+}
+
+.tm-white-rect {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+
+.tm-social-links {
+    margin-bottom: 27px;
+}
+
+.tm-social-link {
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    margin: 8px;
+    border-radius: 5px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tm-social-link:hover,
+.tm-social-link:focus {
+    background-color: #069;
+    color: white;
+}
+
+.tm-footer-link {
+    color: white;
+}
+
+.tm-footer-link:hover {
+    color: #f93;
+    text-decoration: none;
+}
+
+
+.main-content {
+    width: 70%;
+    margin-left: 30%;
+    padding: 50px;
+    color: #000000;
+}
+.section-header {
+    padding: 55px;
+}
+
+.about,
+.clients,
+.contact {
+    margin-top: 50px;
+}
+
+.work-gallery {
+    display: flex;
+}
+
+.work-gallery img {
+    width: auto;
+    height: auto;
+}
+
+.client-logos {
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.client-logos img {
+    width: 18%;
+    margin: 10px;
+}
+
+.tm-section-wrap {
+    width: 90%;
+}
+
+.contact form input,
+.contact form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #404040;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact form button:hover {
+    background-color: #333333;
+}
+.dot-slider {
+    text-align: center;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dot {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+}
